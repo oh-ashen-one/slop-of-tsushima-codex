@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:5175",
+  "shots": [
+    {
+      "name": "forest_interior",
+      "motion": true,
+      "frames": 24,
+      "clockRan": true
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "ok": true,
+  "timings": {
+    "bootMs": 7481
+  },
+  "totalMs": 19484
+}

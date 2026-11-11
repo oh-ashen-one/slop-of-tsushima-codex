@@ -1,0 +1,21 @@
+{
+ "shots": {
+  "forest_interior": {
+   "shimmer_mean": 0.01828,
+   "shimmer_p99": 0.11696,
+   "shimmer_area": 0.22762,
+   "frames_static": 30,
+   "dolly_delta_mean": 0.0915,
+   "dolly_delta_max": 0.13354,
+   "pop_ratio": 1.459,
+   "frames_dolly": 30,
+   "pop_frame": 0,
+   "sun_delta_median": 0.013792,
+   "sun_delta_max": 0.01443,
+   "sun_step_ratio": 1.046,
+   "frames_suncycle": 30
+  }
+ },
+ "flicker": {},
+ "failures": 1
+}

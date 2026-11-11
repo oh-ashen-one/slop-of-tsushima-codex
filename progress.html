@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="45">
+  <title>Golden Field — Live Gauntlet</title>
+  <style>
+    :root { color-scheme: dark; --ink:#f4ead1; --muted:#b9ad92; --gold:#d8a84c; --red:#9b3326; --panel:#17150f; }
+    * { box-sizing:border-box } body { margin:0; background:#0a0907; color:var(--ink); font:15px/1.55 ui-sans-serif,system-ui,sans-serif }
+    header { min-height:42vh; display:grid; align-content:end; padding:7vw; background:linear-gradient(0deg,#0a0907 0%,transparent 70%),url('references/field_24.png') center 45%/cover }
+    h1 { margin:0; font:700 clamp(44px,9vw,112px)/.86 Georgia,serif; letter-spacing:-.05em; text-shadow:0 4px 30px #000 }
+    .kicker { color:#fff; text-transform:uppercase; letter-spacing:.28em; font-weight:700 }
+    main { max-width:1500px; margin:auto; padding:4vw 5vw 8vw }
+    .status { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:28px }
+    .pill { border:1px solid #665936; border-radius:999px; padding:7px 13px; color:var(--muted); background:#17150fcc }
+    .active { color:#1b1407; background:var(--gold); border-color:var(--gold) }
+    h2 { margin:48px 0 16px; font:600 28px/1.1 Georgia,serif }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:18px }
+    figure { margin:0; background:var(--panel); border:1px solid #282319; overflow:hidden }
+    img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#080706 }
+    figcaption { padding:12px 14px; color:var(--muted) } strong { color:var(--ink) }
+    .timeline { border-left:2px solid #574727; padding-left:20px; max-width:850px }
+    .timeline p { margin:0 0 22px } time { color:var(--gold); display:block; font-weight:700; letter-spacing:.08em }
+    a { color:var(--gold) }
+  </style>
+</head>
+<body>
+  <header><div><div class="kicker">EP-02 · Codex · Live gauntlet</div><h1>Golden Field</h1></div></header>
+  <main>
+    <div class="status">
+      <span class="pill">Baseline archived in Git</span><span class="pill active">Wave 7 · terminal + temporal coherence</span>
+      <span class="pill">Build + 7 traversal tests · passing</span><span class="pill">Fresh capture · 10/10 clean</span>
+    </div>
+    <p>The director page refreshes every 45 seconds. These are fresh frames from the actual current game. Canonical capture, motion capture, and 40-pose adversarial scouting all reach <code>window.__GAME.ready</code> with zero page errors.</p>
+    <h2>Wave 7 actual output · fresh 01:37 EDT</h2>
+    <div class="grid">
+      <figure><img src="shots/critic-round4-20260827-013743/player_third_person.png"><figcaption><strong>Player frame</strong> — fresh zero-error Round 4 capture. The silhouette reads, but the blind critic still chose the reference because the white horizon flattens warm/cool separation.</figcaption></figure>
+      <figure><img src="shots/critic-round4-20260827-013743/golden_hour_vista.png"><figcaption><strong>Golden vista</strong> — exposure and midground detail recovered, but the reference still wins on layered atmospheric depth. This frame also exposed an 18.77 / 22.70 ms CPU/GPU spike.</figcaption></figure>
+      <figure><img src="shots/critic-round4-20260827-013743/forest_interior.png"><figcaption><strong>Forest interior</strong> — current canopy-aware fill and shafts. Fresh 30-frame motion audit measures 0.01842 sigma and 23.207% boil; the strict 0.004 gate still fails.</figcaption></figure>
+      <figure><img src="shots/critic-round4-20260827-013743/river_bend.png"><figcaption><strong>Water</strong> — current reflective crossing environment; deterministic bridge physics remains green in both directions.</figcaption></figure>
+      <figure><img src="shots/critic-round4-20260827-013743/town_street.png"><figcaption><strong>Shrine precinct</strong> — the route, visible stairs and exact ground surface are integrated. A solid/queryable sanctuary endpoint is now under independent live traversal.</figcaption></figure>
+    </div>
+    <h2>North stars</h2>
+    <div class="grid">
+      <figure><img src="references/field_16.png"><figcaption>Dense backlit grass, dark rider silhouette, layered haze.</figcaption></figure>
+      <figure><img src="references/field_24.png"><figcaption>Gold/black value design, pampas masses, water crossing.</figcaption></figure>
+      <figure><img src="references/shrine_night.png"><figcaption>Japanese architectural language: torii, stone, lantern rhythm.</figcaption></figure>
+    </div>
+    <h2>Gauntlet log</h2>
+    <div class="timeline">
+      <p><time>WAVE 0 · BASELINE</time>Official staged capture inspected side by side. Ours loses decisively; the single biggest gap is the absence of a dense, strongly backlit golden field around a dark samurai silhouette.</p>
+      <p><time>WAVE 1 · INTEGRATED</time>Ronin GLB/state controller, lower wider camera, rolling gold/green ecology, tall pines, pampas and white flower drifts, stronger rim light/cool shadow grade, petals, calmer water, shrine precinct, lantern path and a log bridge. Production build passes.</p>
+      <p><time>FIELD CRITIC · REFERENCE WINS</time>Single gap: continuous light-catching vegetation volume. Returned to ecology; near meadow now holds a tighter 0.7–1.2 m sward with warmer tip transmission, dark roots, and no added draw calls.</p>
+      <p><time>LANDMARK CRITIC · REFERENCE WINS</time>Single gap: shrine read as an open primitive blockout. Returned to builder; added enclosing plaster/timber walls, broad irregular stone forecourt and stair, real budgeted lantern lights, then merged the precinct to eleven static draws.</p>
+      <p><time>CHARACTER CRITIC · REFERENCE WINS</time>Single gap: staged <code>mount</code> track is effectively static. Returned to builder; the visible ronin now commits the left foot/hand first, sweeps the right leg over the croup, braces through the torso and reverses support order on dismount. The named asset clip remains active beneath the overlay.</p>
+      <p><time>WHOLE-GAME SMOOTHING</time>Fresh player pass unified the boot, pause menu, loading language, location titles, travel hints and soundscape around Golden Field / 黄金野. Shrine bells, bamboo clack, birds and insects replace saloon/anvil/wagon identity along the intended path.</p>
+      <p><time>CAPTURE RECEIPT</time><code>capture:fast</code> reaches the new no-port disk route, then Chromium is terminated by macOS Mach-port permission denial (1100/SIGTRAP). <code>motion</code> shares that path; <code>scout</code> is likewise blocked. No stale screenshot is being relabeled as current.</p>
+      <p><time>WAVE 4 · FRESH AUDIT</time>A clean-context source audit found the largest remaining functional gap: the log bridge was scenery only. Player and horse grounding still followed the streambed, so the promised crossing could not actually be ridden.</p>
+      <p><time>BRIDGE ROUND 1 CRITIC · FAIL</time>The controller tests crossed, but the critic rebuilt the production terrain and found the 46 m cap left both visible plank ends in live water. The physics-only feather continued beyond the mesh, so the crossing was still not honestly bank-to-bank.</p>
+      <p><time>BRIDGE ROUND 2 CRITIC · FAIL</time>The bank-to-bank span was correct, but the visible boards were flat boxes while the capsule followed a continuous hidden slope between board centres. Feet and hooves could float or intersect on the approaches.</p>
+      <p><time>BRIDGE ROUND 3 CRITIC · PASS</time>The Terrain query is piecewise identical to every flat board top, with no yaw or overlap ambiguity. An independent production probe built a 61 m bridge across a 55 m wet span: all 91 merged plank tops matched within 0.000002 m, both controllers crossed both ways, support stopped at the mesh, stream data stayed unchanged, and teardown cleaned the override. Tests pass 3/3; the production build passes.</p>
+      <p><time>FRESH CAPTURE AUDIT · BLOCKED</time>At 00:20 EDT, <code>capture:fast</code>, <code>motion</code>, and <code>scout</code> produced zero new files. Bundled and system Chromium fail the managed macOS launcher boundary; the only single-process WebGL2 mode never reaches the game's ready signal. Existing frames remain explicitly pre-wave evidence, so no blind visual winner is declared.</p>
+      <p><time>CAPTURE RECOVERY · PASS</time>Local-port capture recovered without game changes. Canonical capture produced 10/10 frames with zero errors; motion produced 144 frames; scout completed 40 deterministic adversarial poses. The tooling now honors the last repeated CLI option, so npm defaults can be overridden into timestamped evidence folders.</p>
+      <p><time>LIGHT HIERARCHY ROUND 1 · FAIL</time>Fresh blind critic compared the actual 01:03 capture with <code>field_9</code> and <code>field_16</code>. Reference wins decisively. Single gap remains the same: no authored dark rider/foreground silhouette against a glowing atmospheric corridor. Returned for a deeper sun/route/camera staging pass.</p>
+      <p><time>SHRINE ROUTE CRITIC · FAIL</time>Live keyboard traversal on the authored town-to-shrine axis stalled around 30.85 m and 17.65 m from the precinct. An oversized lantern and boulder cluster then occluded the ronin, camera and torii. Single gap returned to the route builder: clear the playable axis and third-person sightline.</p>
+      <p><time>MOTION AUDIT · FAIL</time>The current forest interior has the dominant temporal defect: sigma 0.0373 with 46.4% of pixels boiling under a static camera. This remains queued behind the active one-gap lighting and route rounds.</p>
+      <p><time>LIGHT HIERARCHY ROUND 2 · FAIL</time>Sun-facing spawn and capture staging increased player-to-corridor separation from 2.6× to 9.6×. The next blind critic still chose the references 3–0: the remaining single gap was cohesive volumetric depth.</p>
+      <p><time>LIGHT HIERARCHY ROUND 3 · FAIL</time>Layered haze, canopy-aware fill and broad side-light shafts made the forest depth visible. Fresh critic still chose the references: the single gap sharpened to overexposed airlight flattening material detail and local contrast. Round 4 is active.</p>
+      <p><time>FOREST MOTION BUILDER</time>Static-camera sigma fell 0.03730 → 0.01799 and boiling area 46.4% → 23.2%, a 51.8% / 50.0% reduction. Dolly continuity held. The strict 0.004 gate still fails, so this piece is not passed.</p>
+      <p><time>SHRINE ROUTE ROUND 2</time>The route no longer stalls, but the first re-critic found the ronin sinking into raised stairs. The builder added a query surface exactly matching all approach slabs, five stair tops, platform and timber deck; 840 sampled points now match with zero error and a production capsule crosses. Fresh play re-critique is active.</p>
+      <p><time>LIGHT HIERARCHY ROUND 4 · FAIL</time>Lower airlight restored local material detail, but the fresh 01:37 blind critic still chose the references across all three comparisons. Single gap remains cinematic golden-hour depth: the player horizon is white, the forest reads neutral daylight, and the vista distance is uniformly orange instead of layered warm/cool silhouettes. Capture is 10/10 clean; boot is 6.305 s.</p>
+      <p><time>MOTION RE-CRITIC · FAIL</time>Thirty fresh static, dolly and sun-cycle frames confirm the prior stabilization is real but insufficient: sigma is 0.01842 against the 0.004 gate and 23.207% of pixels boil. Dolly pop ratio 1.471 and sun-step ratio 1.043 pass. The single remaining temporal gap is foliage-and-shadow boil under a locked camera.</p>
+      <p><time>SHRINE ROUTE ROUND 3</time>The closed sanctuary now owns a solid, camera-queryable door-plane collider plus explicit endpoint/focus semantics. A six-second sustained-sprint regression stops on the deck, remains grounded and cannot penetrate; the hot terrain query is allocation-free. Independent live traversal is active before this is counted as passed.</p>
+    </div>
+  </main>
+</body>
+</html>

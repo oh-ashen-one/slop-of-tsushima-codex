@@ -1,0 +1,604 @@
+{
+  "url": "http://127.0.0.1:5174",
+  "shots": [
+    {
+      "name": "golden_hour_vista",
+      "file": "shots/critic-20260827-010310/golden_hour_vista.png",
+      "desc": "Wide valley vista, low golden sun, long shadows, haze layers",
+      "ms": 1056,
+      "stats": {
+        "drawCalls": 151,
+        "triangles": 1801186,
+        "programs": 140,
+        "textures": 89,
+        "geometries": 160,
+        "frameMs": 9.256326189536802,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            7.25
+          ],
+          [
+            "sky",
+            0.69
+          ],
+          [
+            "lighting",
+            0.46
+          ],
+          [
+            "terrain",
+            0.05
+          ],
+          [
+            "horse",
+            0.05
+          ],
+          [
+            "wildlife",
+            0.05
+          ],
+          [
+            "scatter",
+            0.04
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "clouds",
+            0.03
+          ],
+          [
+            "physics",
+            0.03
+          ]
+        ],
+        "gpuFrameMs": 10.740000000099341
+      }
+    },
+    {
+      "name": "dawn_mist_valley",
+      "file": "shots/critic-20260827-010310/dawn_mist_valley.png",
+      "desc": "Cold blue dawn, ground mist in the low ground, sun just cresting",
+      "ms": 958,
+      "stats": {
+        "drawCalls": 144,
+        "triangles": 1654752,
+        "programs": 277,
+        "textures": 89,
+        "geometries": 165,
+        "frameMs": 8.62267717182384,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            6.45
+          ],
+          [
+            "sky",
+            0.82
+          ],
+          [
+            "lighting",
+            0.59
+          ],
+          [
+            "wildlife",
+            0.07
+          ],
+          [
+            "horse",
+            0.04
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "clouds",
+            0.03
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "physics",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 8.343333333233993
+      }
+    },
+    {
+      "name": "high_noon_desert",
+      "file": "shots/critic-20260827-010310/high_noon_desert.png",
+      "desc": "Harsh overhead light, heat haze, arid rock and scrub",
+      "ms": 685,
+      "stats": {
+        "drawCalls": 132,
+        "triangles": 1575993,
+        "programs": 278,
+        "textures": 89,
+        "geometries": 165,
+        "frameMs": 6.803312447372459,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            6.15
+          ],
+          [
+            "sky",
+            0.15
+          ],
+          [
+            "lighting",
+            0.08
+          ],
+          [
+            "horse",
+            0.07
+          ],
+          [
+            "wildlife",
+            0.06
+          ],
+          [
+            "player",
+            0.04
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "timeOfDay",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ],
+          [
+            "weather",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 6.710000000149011
+      }
+    },
+    {
+      "name": "town_street",
+      "file": "shots/critic-20260827-010310/town_street.png",
+      "desc": "Main street of the settlement, buildings, props, warm afternoon",
+      "ms": 783,
+      "stats": {
+        "drawCalls": 144,
+        "triangles": 1634420,
+        "programs": 278,
+        "textures": 89,
+        "geometries": 165,
+        "frameMs": 7.576212587695458,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            7.22
+          ],
+          [
+            "sky",
+            0.07
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "horse",
+            0.04
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "scatter",
+            0.02
+          ],
+          [
+            "wildlife",
+            0.01
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "particles",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 7.656666666766008
+      }
+    },
+    {
+      "name": "night_camp",
+      "file": "shots/critic-20260827-010310/night_camp.png",
+      "desc": "Deep night, campfire as the key light, stars and milky way visible",
+      "ms": 609,
+      "stats": {
+        "drawCalls": 145,
+        "triangles": 1620835,
+        "programs": 278,
+        "textures": 89,
+        "geometries": 165,
+        "frameMs": 5.648186600252721,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            5.38
+          ],
+          [
+            "sky",
+            0.06
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "horse",
+            0.02
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "water",
+            0.01
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ],
+          [
+            "physics",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 5.646666666616996
+      }
+    },
+    {
+      "name": "storm_plains",
+      "file": "shots/critic-20260827-010310/storm_plains.png",
+      "desc": "Heavy rain, wet ground, dark towering cloud, wind-lashed grass",
+      "ms": 883,
+      "stats": {
+        "drawCalls": 143,
+        "triangles": 1667226,
+        "programs": 278,
+        "textures": 89,
+        "geometries": 166,
+        "frameMs": 8.863950268008056,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            8.43
+          ],
+          [
+            "sky",
+            0.09
+          ],
+          [
+            "terrain",
+            0.08
+          ],
+          [
+            "horse",
+            0.03
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "player",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ],
+          [
+            "weather",
+            0.01
+          ],
+          [
+            "clouds",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 9.156666666766007
+      }
+    },
+    {
+      "name": "river_bend",
+      "file": "shots/critic-20260827-010310/river_bend.png",
+      "desc": "Water surface, reflections, refraction, foam at the bank",
+      "ms": 848,
+      "stats": {
+        "drawCalls": 158,
+        "triangles": 2185859,
+        "programs": 281,
+        "textures": 89,
+        "geometries": 175,
+        "frameMs": 8.685920989615227,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            8.12
+          ],
+          [
+            "sky",
+            0.09
+          ],
+          [
+            "lighting",
+            0.07
+          ],
+          [
+            "terrain",
+            0.06
+          ],
+          [
+            "horse",
+            0.05
+          ],
+          [
+            "player",
+            0.04
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "scatter",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ]
+        ],
+        "gpuFrameMs": 8.35
+      }
+    },
+    {
+      "name": "forest_interior",
+      "file": "shots/critic-20260827-010310/forest_interior.png",
+      "desc": "Inside the treeline, dappled light through canopy, undergrowth",
+      "ms": 904,
+      "stats": {
+        "drawCalls": 166,
+        "triangles": 3356819,
+        "programs": 283,
+        "textures": 89,
+        "geometries": 185,
+        "frameMs": 9.332085542458723,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            8.83
+          ],
+          [
+            "sky",
+            0.09
+          ],
+          [
+            "wildlife",
+            0.06
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "lighting",
+            0.04
+          ],
+          [
+            "scatter",
+            0.03
+          ],
+          [
+            "horse",
+            0.02
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "weather",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 9.266666666666667
+      }
+    },
+    {
+      "name": "player_third_person",
+      "file": "shots/critic-20260827-010310/player_third_person.png",
+      "desc": "Over-the-shoulder gameplay framing with the character and horse",
+      "ms": 826,
+      "stats": {
+        "drawCalls": 134,
+        "triangles": 1610063,
+        "programs": 283,
+        "textures": 91,
+        "geometries": 185,
+        "frameMs": 8.222714755989152,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            7.89
+          ],
+          [
+            "sky",
+            0.07
+          ],
+          [
+            "wildlife",
+            0.05
+          ],
+          [
+            "lighting",
+            0.04
+          ],
+          [
+            "terrain",
+            0.04
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "physics",
+            0.01
+          ],
+          [
+            "horse",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ],
+          [
+            "clouds",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 8.42000000004967
+      }
+    },
+    {
+      "name": "moonlit_ridge",
+      "file": "shots/critic-20260827-010310/moonlit_ridge.png",
+      "desc": "Blue moonlit ridgeline, volumetric night haze, silhouettes",
+      "ms": 822,
+      "stats": {
+        "drawCalls": 112,
+        "triangles": 1302496,
+        "programs": 283,
+        "textures": 91,
+        "geometries": 185,
+        "frameMs": 7.768184393534641,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            7.5
+          ],
+          [
+            "sky",
+            0.06
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "wildlife",
+            0.03
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "horse",
+            0.02
+          ],
+          [
+            "terrain",
+            0.02
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "scatter",
+            0.01
+          ],
+          [
+            "particles",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 7.976666666567326
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "ok": true,
+  "timings": {
+    "bootMs": 5156
+  },
+  "totalMs": 13530
+}

@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:5174",
+  "shots": [],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "ok": false,
+  "timings": {
+    "bootMs": 5127
+  },
+  "fatal": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
+  "totalMs": 18451
+}

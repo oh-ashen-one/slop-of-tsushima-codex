@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Golden Field — A Journey at Dusk</title>
+<meta name="description" content="Cross a wind-brushed golden field on foot and horseback, from the evening grasslands to a quiet shrine and stream.">
+<meta name="theme-color" content="#07060a">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Golden Field">
+<meta property="og:title" content="Golden Field — A Journey at Dusk">
+<meta property="og:description" content="Walk and ride through evening grass, a quiet shrine, and a stream crossing.">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Golden Field — A Journey at Dusk">
+<meta name="twitter:description" content="Walk and ride through evening grass, a quiet shrine, and a stream crossing.">
+
+<style>
+  html,body{margin:0;padding:0;height:100%;overflow:hidden;background:#000;color:#e8dcc8;
+    font-family:"Yu Mincho","Hiragino Mincho ProN","Times New Roman",Georgia,serif;
+    -webkit-font-smoothing:antialiased}
+  #app{position:fixed;inset:0}
+  canvas{display:block;width:100%;height:100%;outline:none}
+  #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+    flex-direction:column;gap:18px;background:#07060a;z-index:100;transition:opacity 1.2s ease}
+  #boot.gone{opacity:0;pointer-events:none}
+  #boot h1{font-size:clamp(28px,6vw,64px);letter-spacing:.3em;margin:0;text-indent:.3em;font-weight:400;
+    color:#d8c39a;text-shadow:0 0 40px rgba(200,150,70,.35)}
+  #boot .sub{letter-spacing:.34em;font-size:11px;color:#756b5b;text-transform:uppercase}
+  #boot .jp{font-size:12px;letter-spacing:.55em;color:#81745f;margin-right:-.55em}
+  #bar{width:min(420px,60vw);height:1px;background:#241f1a;position:relative;overflow:hidden}
+  #bar i{position:absolute;inset:0 100% 0 0;background:linear-gradient(90deg,#7a5a28,#e0c184);
+    transition:right .35s ease}
+  #boot .task{font-size:11px;letter-spacing:.22em;color:#5c554a;text-transform:uppercase;height:1em}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="boot" role="status" aria-live="polite" aria-label="Loading Golden Field">
+  <div class="jp" lang="ja">黄金野</div>
+  <h1>GOLDEN FIELD</h1>
+  <div class="sub">A Journey at Dusk</div>
+  <div id="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="barfill"></i></div>
+  <div class="task" id="boottask">entering the field</div>
+</div>
+<noscript>Golden Field requires JavaScript to run.</noscript>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

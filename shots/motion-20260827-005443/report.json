@@ -1,0 +1,26 @@
+{
+  "url": "http://127.0.0.1:5174",
+  "shots": [
+    {
+      "name": "golden_hour_vista",
+      "motion": true,
+      "frames": 24,
+      "clockRan": true
+    },
+    {
+      "name": "forest_interior",
+      "motion": true,
+      "frames": 24,
+      "clockRan": true
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "ok": true,
+  "timings": {
+    "bootMs": 5966
+  },
+  "totalMs": 39542
+}

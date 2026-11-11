@@ -1,0 +1,73 @@
+{
+  "url": "http://127.0.0.1:5174",
+  "shots": [
+    {
+      "name": "golden_hour_vista",
+      "file": "shots/golden-builder-check/golden_hour_vista.png",
+      "desc": "Wide valley vista, low golden sun, long shadows, haze layers",
+      "ms": 1272,
+      "stats": {
+        "drawCalls": 151,
+        "triangles": 1813350,
+        "programs": 144,
+        "textures": 89,
+        "geometries": 161,
+        "frameMs": 9.246473529689718,
+        "quality": "medium",
+        "failedSystems": [],
+        "systemMs": [
+          [
+            "__render",
+            7.1
+          ],
+          [
+            "sky",
+            0.7
+          ],
+          [
+            "lighting",
+            0.64
+          ],
+          [
+            "wildlife",
+            0.07
+          ],
+          [
+            "terrain",
+            0.05
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "horse",
+            0.03
+          ],
+          [
+            "scatter",
+            0.03
+          ],
+          [
+            "weather",
+            0.03
+          ],
+          [
+            "physics",
+            0.02
+          ]
+        ],
+        "gpuFrameMs": 9.87999999995033
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "ok": true,
+  "timings": {
+    "bootMs": 5200
+  },
+  "totalMs": 6473
+}
