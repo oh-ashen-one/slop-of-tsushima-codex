@@ -7,7 +7,7 @@ A sibling repo, `slop-of-tsushima`, holds the kimi build of the same brief.
 ## Give this to your agent
 
 ```text
-Clone https://github.com/Ashen-Skool/slop-of-tsushima-codex.git (private repo, I already have access, use my existing git or gh login). The repo is about 1.9 GB, so a shallow clone (git clone --depth 1) is fine.
+Clone https://github.com/oh-ashen-one/slop-of-tsushima-codex.git. The repo is about 1.9 GB, so a shallow clone (git clone --depth 1) is fine.
 
 Read README.md, package.json, ARENA_SESSION_NOTES.md, BRIEF.md and INTEGRATION.md. Then run the game locally so I can play it:
 1. Check that Node is 20.19 or newer, or 22.12 or newer. If not, stop and tell me.
